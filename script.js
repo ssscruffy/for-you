@@ -3,26 +3,32 @@
     const notes = [
       {
         title: "freaken no more exams",
+        hint: "how good does it feel...",
         message: "how good does it feel to be done, think about all the murder mysteries you can invest in now"
       },
       {
         title: "you're pretty funny",
+        hint: "you make me laugh...",
         message: "you make me laugh a lot and I really enjoy your sense of humour, never change - you might just be a little bit more funny then me"
       },
       {
         title: "i understand",
+        hint: "when you're in the lows...",
         message: "when you're in the lows or feeling weird, i get it, or i get it a little bit, talk to me i'd rather hear you then sit in silence"
       },
       {
         title: "estoy enferma",
+        hint: "when you're feeling overwhelmed...",
         message: "when you're feeling overwhelmed, remember that you're pretty strong and i'm proud of you, i hope this makes you a little less overwhelmed"
       },
       {
         title: "i did it",
+        hint: "i dont really know...",
         message: "i dont really know how to code websites because i dont like html or css; but i wanted to create something for you because i like you a lot - we pray to claude for its help"
       },
       {
         title: "favourites",
+        hint: "although i love my...",
         message: "although i love my protein powder, breakfast bakes, smoothies, my skateboard, the gym.... you're still my favourite"
       }
     ];
@@ -34,12 +40,10 @@
       card.className = 'note-card';
       card.innerHTML = `
         <div class="note-front">
-          <span class="note-emoji">${n.emoji}</span>
           <h3>${n.title}</h3>
           <p>${n.hint}</p>
         </div>
         <div class="note-back">
-          <span class="note-emoji">${n.emoji}</span>
           "${n.message}"
         </div>
         <span class="note-tap-hint">tap to read</span>
