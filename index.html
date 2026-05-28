@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>For You.</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body> 
+
+
+    <canvas id="hearts-canvas"></canvas>
+
+
+    <!-- hero -->
+    <div class="hero">
+        <p class="hero-eyebrow">Something made especially for you</p>
+        <h1 class="hero-title">Hola, <em>Bonita.</em></h1>
+        <p class="hero-sub">Eres linda</p>
+        <div class="scroll-hint">
+            scroll that booty down pls
+            <span class="scroll-arrow"></span>
+        </div>
+    </div>
+
+    <!-- notes -->
+    <section>
+        <p class="section-label">Notes</p>
+        <h2 class="section-title">Things you should know...</h2>"
+        <div class="notes-grid" id="notes-grid"></div>
+    </section>
+
+    <div class="divider"></div>
+
+    <!-- surprise -->
+    <div class="surpise-selection">
+        <p class="section-label">A lil something</p>
+        <h2 class="section-title" style="font-family:'Playfair Display',serif; font-size:clamp(1.8rem,4vw,3rem); margin-bottom:2rem;">Take some of this.</h2>
+        <button class="surprise-btn" onclick="showSurprise()">Press me</button>
+        <p id="surprise-mesg"></p>
+    </div>
+
+    <!-- footer -->
+    <footer>
+        Made by a big hearted geezer
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
