@@ -9,7 +9,7 @@
       {
         title: "you're pretty funny",
         hint: "you make me laugh...",
-        message: "you make me laugh a lot and I really enjoy your sense of humour, never change - you might just be a little bit more funny then me"
+        message: "you make me laugh a lot and I really enjoy your sense of humour, never change - you might just be a little bit more funny than me"
       },
       {
         title: "i understand",
